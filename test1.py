@@ -1,2 +1,1 @@
 print("hida")
-print("byeda")
