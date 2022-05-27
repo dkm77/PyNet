@@ -27,7 +27,7 @@ Hardware
 
   Device name: nxos1
   bootflash:    3509454 kB
-Kernel uptime is 412 day(s), 11 hour(s), 39 minute(s), 18 second(s)
+Kernel uptime is 415 day(s), 18 hour(s), 52 minute(s), 30 second(s)
 
 Last reset 
   Reason: Unknown
@@ -71,7 +71,7 @@ Hardware
 
   Device name: nxos2
   bootflash:    3509454 kB
-Kernel uptime is 167 day(s), 22 hour(s), 1 minute(s), 7 second(s)
+Kernel uptime is 171 day(s), 5 hour(s), 14 minute(s), 20 second(s)
 
 Last reset 
   Reason: Unknown
