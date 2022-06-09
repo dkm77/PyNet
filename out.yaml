@@ -1,0 +1,13 @@
+{arista: [arista1, arista2, arista3, arista4], arista1: {device_type: arista_eos,
+    global_delay_factor: 1, host: arista1.lasthop.io, password: 88newclass, username: pyclass},
+  arista2: {device_type: arista_eos, global_delay_factor: 1, host: arista2.lasthop.io,
+    password: 88newclass, username: pyclass}, arista3: {device_type: arista_eos, global_delay_factor: 1,
+    host: arista3.lasthop.io, password: 88newclass, username: pyclass}, arista4: {
+    device_type: arista_eos, global_delay_factor: 1, host: arista4.lasthop.io, password: 88newclass,
+    username: pyclass}, cisco: [cisco3, cisco4], cisco3: {device_type: cisco_ios,
+    host: cisco3.lasthop.io, password: 88newclass, username: pyclass}, cisco4: {device_type: cisco_ios,
+    host: cisco4.lasthop.io, password: 88newclass, username: pyclass}, juniper: [
+    srx2], nxos: [nxos1, nxos2], nxos1: {device_type: cisco_nxos, host: nxos1.lasthop.io,
+    password: 88newclass, port: 22, username: pyclass}, nxos2: {device_type: cisco_nxos,
+    host: nxos2.lasthop.io, password: 88newclass, port: 22, username: pyclass}, srx2: {
+    device_type: juniper_junos, host: srx2.lasthop.io, password: 88newclass, username: pyclass}}
