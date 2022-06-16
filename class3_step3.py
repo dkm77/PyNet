@@ -15,14 +15,9 @@ ipv6_list = []
 for if_values in data_dict.values():
     for ipv, prefixes in if_values.items():
         if ipv == "ipv4":
-            ip_list = ipv4_list
+            ipv4_list += prefixes.keys()
         elif ipv == "ipv6":
-            ip_list = ipv6_list
-        else:
-            continue
-
-        for prefix in prefixes.keys():
-            ip_list.append(prefix)
+            ipv6_list += prefixes.keys()
 
 print(ipv4_list)
 print(ipv6_list)
